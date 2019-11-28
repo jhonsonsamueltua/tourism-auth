@@ -12,7 +12,7 @@ import (
 )
 
 func main() {
-
+	//route rest api
 	router := mux.NewRouter()
 
 	router.HandleFunc("/api/user/new", controllers.CreateAccount).Methods("POST")
